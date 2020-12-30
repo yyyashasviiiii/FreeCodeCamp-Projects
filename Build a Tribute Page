@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+  <head><title>Tribute Page</title>
+  </head>
+  <style>
+  #main {
+  background-color: black;
+
+}
+#img {
+  width: 1000px;
+  height: 900px;
+  
+  
+}
+header {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+  
+}
+#image {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:gold;
+  
+}
+#image {
+  text-align: center;
+}
+
+.points {
+   padding: 20px;
+  background-color: silver;
+  list-style-position: inside;
+  
+}
+li {
+   margin-left: 25%;
+  margin-right: 25%;
+}
+
+blockquote {
+  padding: 20px;
+  text-align: center;
+  background-color:#d7e6d3;
+}
+footer {
+  background-color: #7b9de3;
+  text-align: center;
+  padding: 35px;
+}
+  
+  
+  </style>
+
+  <body id="main">
+    <header>
+      <h1>
+      Kakashi Hatake
+      </h1>
+      <h5>The Son of White Fang of the Leaf Village</h5>
+   
+    </header>
+    <div id="img-div">
+       <img id="image" src="https://i.pinimg.com/736x/ef/b0/63/efb0638a8997c45ed62fcadaa5076aa0.jpg">
+    </div>
+    <h4 id="image-caption">Kakashi Hatake (はたけカカシ, Hatake Kakashi) is a shinobi of Konohagakure's Hatake clan.</h4>
+    <div id="tribute-info">
+  
+    <ul class="points">
+      <li> His Mask Was Covering A Mole. </li>
+      <li>His sword was an heirloom from the Hatake clan.</li>
+      <li> He got the Mangekyou Sharingan way before he used it.</li>
+      <li>Graduated Age 5, Chūnin at 6.</li>
+      <li>He blames himself for the Uchiha slaughter.</li>
+      <li>He never retires.</li>
+      <li>His Anbu mask mirrors his summon.</li>
+      <li>The Legend of The Hidden Leaf Village</li>
+      <li> The Purple Electricity Technique.</li>
+      <li>He Was Kishimoto’s First Choice For A Spinoff</li>
+      <li>He Originally Ended Sentences With “De Gozaru”</li>
+      <li>Kakashi Has A Version Of Sakura’s “Inner Sakura”</li>
+    </ul>
+    </div>
+    <blockquote>
+      <q>Continous Progress is Better than Delayed Perfection.</q>&nbsp;
+      <cite>Mark Twain</cite>
+      </blockquote>
+    <footer>
+      <p><b>If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="" target="_blank" wikepedia entry>Wikepedia Entry</a></b></p>
+
+  </body>  
+
+</html>
+
