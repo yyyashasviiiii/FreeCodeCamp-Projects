@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+  <html>
+    
+    <head>
+      <title>Otaku Form</title>
+    </head>
+    
+    <style>
+    
+          body {
+        background-color: #b5b8b2;
+        background-image: url("https://fsa.zobj.net/crop.php?r=pv-ZhYs62A618W6e35Ax0_oT9BRmhEE99W_qRH7Chd8EqZ2-bfCzfzHIVMF8eJUlwY9ytFHTdO7tTDF0gKuf7nn2-D4f6Dyp0E9NrQHplPQpjjDhBebIvt9faCuBGrVHeDVgF_3FM31uDUrY")
+
+      }
+
+      #title {
+        text-align: center;
+        color:black;
+        background-color: lightblue;
+        opacity: 40%;
+      }
+        #description {
+            text-align: center;
+        color:silver;
+
+        }
+
+      #number {
+        width: 350px;
+      }
+
+        padding: 20px;
+      }
+      #info-one {
+        padding-top: 20px;
+        padding-bottom: 5px;
+        margin-left: 20%;
+        margin-right: 20%;
+
+      }
+      #info-two {
+         padding-top: 20px;
+        padding-bottom: 5px;
+
+        margin-right: 20%;
+
+      }
+
+      #dropdown {
+        width: 400px;
+        height: 25px;
+      }
+
+
+      hr {
+        height: 2px;
+        background-color: #4bc3f2;
+      }
+      fieldset {
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 20%;
+        margin-right: 20%;
+        background-color: #8e86a6;
+        opacity: 80%;
+      }
+      #submit {
+        background-color: #4CAF50;
+        color: white;
+        width: 470px; 
+        padding: 15px 32px;
+        text-align: center;
+        font-size: 15px;
+      }
+
+    </style>
+    <body>
+      <div id="header">
+        <h1 id="title">Otaku Survey Form</h1>
+        <hr>
+        <p id="description">
+          One Step Towards the Creation of The Ultimate Anime World</p>
+      </div>
+      
+        <form id="survey-form">
+         <fieldset>
+          <div id="info-one">
+          <label id="name-label" for="name">Name</label><br>
+          <input type="name" id="name"placeholder="Enter your name" size="50"><br><br>
+          <label id="email-label" for="email">Email</label><br>
+          <input type="email" id="email" pattern=".+@globex.com" size="50" required placeholder="Enter your Email" size="50" ><br><br>
+          <label id="number-label" for="age">Age(optional)</label><br>
+          <input type="number" min="0" max="200"  required="true" id="number" placeholder="Age"><br><br>
+      </div>
+        
+      
+          <div id="info-two">
+          <label for="role">Which option best describes your current role?</label><br><br>
+          <select id="dropdown" name="role" >
+            <option value="weeb">You are a Weeb</option>
+            <option value="otaku">You are an Otaku</option>
+            <option value="shonen">You like Shonen</option>
+            <option value="seinen">Seinen is your interest</option>
+            <option value="shoujo">You like Shoujo</option>
+            <option value="josei">You have interest in Josei</option>
+            <option value="kodomomuke">You like Kodomomuke</option> 
+          </select><br><br>
+          
+          <label id="name" for="name">Would you recommend Anime to a friend?</label><br><br>
+          <input type="radio" name="name" id="Definitely" value="Definitely">
+          <label for="Definitely">Definitely</label><br>
+          <input type="radio" name="name" id="Maybe" value="Maybe">
+          <label for="Maybe">Maybe</label><br>
+          <input type="radio" name="name" id="Not sure" value="Not sure">
+          <label for="Not sure">Not sure</label><br><br><br>
+          
+          <label for="best">Which are your Favorite Character/s &nbsp; (Check all that apply)</label><br><br>
+          <input type="checkbox" name="Uzumaki Naruto">
+          <label for="Uzumaki Naruto">Uzumaki Naruto &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Naruto)</label><br>
+          <input type="checkbox" name="Monkey D. Luffy">
+          <label for="Monkey D. Luffy">Monkey D. Luffy &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(One Piece)</label><br>
+          <input type="checkbox" name="Satoru Gojo">
+          <label for="Satoru Gojo">Satoru Gojo &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Jujutsu Kaisen)</label><br>
+          <input type="checkbox" name="Yuno & Asta">
+          <label for="Yuno & Asta">Yuno & Asta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Black Clover)</label><br>
+          <input type="checkbox" name="Goku">
+          <label for="Goku">Son Goku &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Dragon Ball Z)</label><br>
+          <input type="checkbox" name="Tanjiro Kamado">
+          <label for="Tanjiro Kamado">Tanjiro Kamado &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Demon Slayer)</label><br>
+          <input type="checkbox" name="Gon & Killua">
+          <label for="Gon & Killua">Gon & Killua &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Hunter x Hunter)</label><br>
+          <input type="checkbox" name="Ken Kaneki">
+          <label for="Ken Kaneki">Ken Kaneki &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Tokyo Ghoul)</label><br>
+           <input type="checkbox" name="Eren Yeager">
+          <label for="Eren Yeager">Eren Yeager &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Attack on Titan)</label><br>
+          <input type="checkbox" name="Izuku Midoriya">
+          <label for="Izuku Midoriya">Izuku Midoriya &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(My Hero Academia)</label><br><br><br>
+          
+          <label for="suggestions">Any comments or suggestions?</label><br><br>
+          <textarea placeholder="Enter your comment here...." rows="5" cols="70"></textarea><br><br>
+            <label for="submit"></label><br>
+            <input type="submit" id="submit" value="Submit">
+      </div>
+           
+          
+          </fieldset>
+        </form>
+       
+    
+    </body>
+  
+  </html>
+  
+  
+  
