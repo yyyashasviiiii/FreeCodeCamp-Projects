@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>Product Landing Page</title>
+ </head>
+ <style>
+      #header-img {
+          float: left;
+      }
+      #heading {
+          float: left;
+          color: white;
+          padding-left: 20px;
+      }
+      #second{
+          text-align: center;
+          font-size: 25px;
+      }
+      #email{
+          margin-left: 30%;
+          margin-right: 20%;
+          width: 300px;
+          height: 25px;
+      }
+      #submit{
+          margin-left: 40%;
+          margin-right: 30%;
+          width: 180px;
+          height: 30px;
+          font-size: 15px;
+          background-color:gold;
+          border-radius: 5px;
+      }
+      #submit:hover{
+          background-color:#00db42;
+          color: #ededed;
+
+      }
+      fieldset {
+          background-color: #212121;
+      }
+      #up {
+          float: right;  
+          background-color: #212121;
+          padding: 10px;
+          margin: 10px;
+          text-align: center;
+          border-radius: 3px;
+      }
+      #up li a {
+          text-decoration: none;
+          padding: .2em 1em;
+          background-color: #5c5a5a;
+          color:#dedede;       
+      }
+      #up li {
+          list-style-type: none;
+          display: inline;
+      }
+      #up li a:hover {
+          background-color: #c5f0fc;
+          color: black;
+      } 
+      .images {
+          float: left;
+      }
+      dl{
+          margin-left: 120px;
+      }
+      dt{
+          font-weight: bold;
+          color:#095bde;
+          text-shadow: 1px 1px #ff0000;
+      }
+      dd{
+          padding: 8px;
+      }
+      .free {
+          text-decoration: none;
+          color: white;
+      }
+      .price{
+          background-color: #2e2e2e;
+          padding: 5px;
+          border: #73aec7 solid 2px;
+          color: white;
+      }
+      .price:hover, .free:hover{
+          background-color:#0f0f0f;
+          color: #ededed;
+          text-shadow: 1px 1px #3d6a7d;
+      }
+      .pricing-grid {
+          max-width: 400px;
+          margin: 0 auto;
+          display: flex;
+          align-items: center;
+      }
+
+      .plan-1 {
+          background-color: lightblue;
+          margin: 20px;  
+          padding: 20px;
+          border-radius: 4px;
+          text-align: center;
+
+      }
+      .plan-2 {
+          background-color: lightblue;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 4px;
+          text-align: center;
+      }
+      .plan-3 {
+          background-color: lightblue;
+          margin: 20px;
+          padding: 20px;
+          border-radius: 4px;
+          text-align: center;
+      }
+
+      #video{
+          margin-left:20%;
+          margin-right:80%;
+      }
+
+      #footer{
+          background-color: #9c9c9c;
+          height: 80px;
+          padding: 20px;
+          margin-bottom: 5px;
+      }
+      #down {
+          padding: 5px;
+          margin: -5px;
+          text-align: center;
+          border-radius: 3px;
+      }
+      #down li a {
+          text-decoration: none;
+          padding: .2em 1em;
+          float: right;
+          background-color:gold;
+          border: #db8b00 solid 1px;
+      }
+      #down li {
+          list-style-type: none;
+          display: inline;
+      }
+      #down li a:hover {
+          background-color:#00db42;
+          color: #ededed;
+      } 
+</style>
+ <body>
+  
+    <fieldset>
+    <header id="header">
+        <img id="header-img" src="https://www.nicepng.com/png/detail/781-7818059_monkey-d-luffy-one-piece-luffy-logo.png" width="60px" height="60px;">
+        <h3 id="heading">ONEPIECE</h3>
+        <nav id="nav-bar">
+        <ul id="up">
+        <li class="nav-link"><a href="#B">Features</a></li>
+        <li class="nav-link"><a href="#C">How Anime Works</a></li>
+        <li class="nav-link"><a href="#D">Pricing</a></li>
+        </ul><br><br><br><br>
+        </nav>
+        </fieldset>
+        
+        
+        <h1 id="second">The Man Who Will Become the Pirate King!</h1><br>
+    </header>
+    <p> <a name="A">        </a> </p>
+    
+        <input type="email" id="email" pattern=".+@globex.com" size="50" required placeholder="Enter your email address"><br><br>
+    <input type="submit" id="submit" value="Get Started" url("https://www.freecodecamp.com/email-submit")><br><br>
+    
+
+    <div id="images">
+        
+    <img src="https://m.media-amazon.com/images/I/31BrnHjjm4L.jpg" height="100px" width="80px" class="images"> 
+        <p> <a name="B">        </a> </p>
+        <dl>
+        <dt>DEATHNOTE</dt>
+        <dd>"This World Is Rotten, And Those Who Are Making It Rot Deserve To Die. Someone Has To Do It, So Why Not Me?"- <i>Light Yagami</i></dd>
+    </dl><br><br>
+        <img src="https://img.pngio.com/amazoncom-one-piece-anime-logo-cartoon-decal-vinyl-removable-one-piece-logo-425_425.jpg" height="80px" width="80px" class="images">
+        <dl>
+        <dt>ONEPIECE</dt>
+        <dd>“Power isn’t determined by your size, but the size of your heart and dreams!” – <i>Monkey D Luffy</i></dd>
+    </dl><br>
+    <img src="https://images-na.ssl-images-amazon.com/images/I/31gYVjp7FmL.jpg" height="80px" width="80px" class="images">
+        <dl>
+        <dt>NARUTO</dt>
+        <dd>When a man learns to love, he must bear the risk of hatred.” – <i>Madara Uchiha</i></dd>
+    </dl><br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtSHs67urbCkOA60MUh84ZodNGhXELTG-DIg&usqp=CAU" height="100px" width="90px" class="images">
+        <dl>
+        <dt>BLACK CLOVER</dt>
+        <dd>“Surpass your limit. Right here, right now.” – <i>Yami Sukehiro</i></dd>
+    </dl><br>
+        
+        </div>
+        <br><br>
+    <p> <a name="C">        </a> </p>
+    
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/MYtz2ZhKxFE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br><br><br>
+    
+    <p> <a name="D">        </a> </p>
+    <div class="pricing-grid">
+    
+    <div class="plan-1">
+        <h2>Community</h2>
+        <p>Common Pan</p>
+        <ul class="features">
+        <li>Anime Club Membership (1 Year)</li>
+        <li>10 Premium Anime Stock Posters (Personalized)</li>
+        <li>No Anime Goodies and Figurines</li>
+        <li>Premium Access and Features Denied</li>
+        </ul>
+        <p class="price">
+        <a  href="#" class="free">&nbsp;&nbsp;&nbsp; Free Access&nbsp;&nbsp;&nbsp;</a></p>
+        
+        </div>
+    
+    <div class="plan-2">
+        <h2>Premium</h2>
+        <p>Premium Plan (Recommended)</p>
+        <ul class="features">
+        <li>Anime Club Membership (5 Year)</li>
+        <li>50 Premium Anime Stock Posters (Personalized)</li>
+        <li>Upto 15 Anime Goodies and Figurines</li>
+        <li>Premium Access and Features Granted</li>
+        </ul>
+        <p class="price">
+        <a  href="#" class="free">&nbsp;&nbsp;&nbsp;Best Deal &#8377;2500&nbsp;&nbsp;&nbsp;</a></p>
+        
+    </div>
+    
+    <div class="plan-3">
+        <h2>Deluxe</h2>
+        <p>Deluxe Plan (Unlimited)</p>
+        <ul class="features">
+        <li>Anime Club Membership (Lifetime)</li>
+        <li>200 Premium Anime Stock Posters (Personalized)</li>
+        <li>60 Anime Goodies and Figurines</li>
+        <li>Ultra Premium Access and Features Granted</li>
+        </ul>
+        <p class="price">
+
+        <a  href="#" class="free">&nbsp;&nbsp;&nbsp;Lifetime Deal &#8377;6000&nbsp;&nbsp;&nbsp;</a></p>
+        
+    </div>
+    
+    </div><br>
+        
+    
+    <footer id="footer">
+        
+        <ul id="down">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#B">Terms</a></li>
+        <li><a href="#A">Contact</a></li>
+        </ul><br><br><br>
+    
+        &nbsp;&nbsp;&nbsp;&nbsp;&copy; 2021 YASHasviSHUkla.com. All rights reserved.
+    </footer>
+  
+ </body>
+</html>
